@@ -7,13 +7,14 @@ p {
     font-size: 100%;
 }
 
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 section {
     background-color: grey;
     height: 250px;
-}
-
-h1 {
-    font-size: 175%;
 }
 
 header {
@@ -43,6 +44,7 @@ header {
 h1 {
     position: relative;
     left: 45%;
+    font-size: 175%;
 }
 
 @media (min-width: 992px) {
@@ -78,10 +80,6 @@ h1 {
         margin: 2%;
         padding: 1%;
     }
-
-    p {
-        font-size: 100%;
-    }
 }
 
 @media (max-width: 767px) {
@@ -96,7 +94,9 @@ h1 {
         padding: 1%;
     }
 
-    p {
-        font-size: 100%;
+    h1 {
+        position: relative;
+        left: 40%;
+        font-size: 175%;
     }
 }

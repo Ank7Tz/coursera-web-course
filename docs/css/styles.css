@@ -1,0 +1,36 @@
+body {
+    font-size: 16px;
+    background-color: rgb(0, 52, 73);
+    font-family: 'Oxygen', sans-serif;
+}
+
+* {
+    font-family: 'Lora', serif;
+}
+
+.navbar-brand{ 
+    color: #557c3e;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px #222; */
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#centerHeader{
+    color: #e7e7e7;
+}
+
+#p1 {
+    font-size: 2em;
+}
+
+.contentpad {
+    padding: 5px;
+}
